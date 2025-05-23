@@ -1,0 +1,6 @@
+[tools]
+bun = "latest"
+
+[tasks.server]
+description = "Run the development web server"
+run = "bun --bun run dev"
