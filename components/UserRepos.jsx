@@ -20,10 +20,9 @@ export default function UserRepos({ username }) {
     <div>
       {
         repos.map((repo) => {
-          return <Repo repo={repo} />
+          return <Repo key={repo.id} repo={repo} />
         })
       }
-         // "https://api.github.com/users/ruby/repos"
     </div>
   )
 }

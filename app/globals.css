@@ -1,11 +1,11 @@
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0D1117;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0D1117;
     --foreground: #ededed;
   }
 }
@@ -40,3 +40,11 @@ a {
     color-scheme: dark;
   }
 }
+
+/* -------------DEBUG------------- */
+/* From: https://blog.openreplay.com/using-CSS-background-color-to-debug-web-pages/ */
+
+/* * {outline: 1px solid red !important} */
+/* * {background-color:rgba(0, 0, 255, 0.2)!important} */
+
+/* -------------DEBUG------------- */
